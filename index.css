@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  padding-top:200px;
+  text-align: center;
+  background-image: url(https://i.ibb.co/F4S4YXy/background-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 100vh;
+
+  font-family: 'Cinzel', serif;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 86px;
+  color: #151718;
+}
+
+h1 span {
+  color: #DB2777
+}
+
+p {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C2E2F;
+  opacity: 90%;
+  padding-bottom: 72px;
+  font-family: 'Inter', sans-serif;
+}
+
+.links {
+  gap: 8px;
+}
+
+a {
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151718;
+  text-decoration: none;
+}
+
+a:hover,.travel-now-btn {
+  background: #DB2777;
+  border-radius: 80px;
+  color: white;
+}
